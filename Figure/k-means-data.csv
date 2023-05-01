@@ -1,0 +1,13 @@
+city,count,average number of charging events per day,std
+Dundee,720,689.04,3.13
+HK,721,276,3.64
+Perth,722,176.4,2.42
+Palo,723,125.52,4.12
+Boulder,724,103.68,2.85
+Kinross,725,67.44,2.24
+Pitlochry,726,32.4,0.61
+Crieff,727,26.64,0.46
+Aberfeldy,728,26.4,0.31
+Auchterarder,729,6.48,0.44
+Blairgowrie,730,6.48,0.44
+Dunkeld,731,5.76,0.43
