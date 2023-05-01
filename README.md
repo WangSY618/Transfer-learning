@@ -10,7 +10,6 @@ This is the repo of transfer learning for electric vehicles charging demand pred
 ```
 torch
 sklearn
-pmdarima
 numpy 
 pandas
 ```
@@ -34,6 +33,10 @@ pandas
 |       |-- A7-Kinross.csv
 |       |-- A8-Pitlochry.csv
 |       `-- A9-Crieff.csv
+|-- Figure    # model results visualization
+|   `-- Figure 1.ipynb   
+|   `-- Figure 2.ipynb
+|   `-- Figure 3.ipynb
 |-- res    # save result
 |   `-- station
 |       |-- {method}_pred_{pred_len}_{metric}.csv
@@ -49,13 +52,13 @@ pandas
 
 Implemented machine learning models:
 + `RF`: Random forest
-+ `MLP`: Multilayer perceptron
 + `LASSO`: Lasso regression 
 + `SGD`: SGD regression
 
 Implemented deep learning models:
++ `MLP`: Multilayer perceptron
 + `LSTM`: Long short-term memory
 + `GRU`: Gate recurrent unit
 
-Please refer to `station_transfer.ipynb` for training and testing details.
+Please refer to `Transfer.ipynb` for training and testing details.
 The results will be save in `.\res`.
