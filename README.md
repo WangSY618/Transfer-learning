@@ -30,10 +30,38 @@ The script `nnpred.py` is utilized for model construction.
 - **MLP (Multilayer Perceptron)**: A class of feedforward artificial neural network.
 - **LSTM (Long Short-Term Memory)**: A type of recurrent neural network capable of remembering past information and is particularly well-suited for sequence prediction problems.
 - **GRU (Gated Recurrent Unit)**: Another type of recurrent neural network similar to LSTMs but with a different gating mechanism.
+### Requirements:
+To successfully run the provided code, ensure you have the following Python libraries installed:
+- **Data Handling and Operations**: 
+  - `pandas`
+  - `numpy`
+- **Data Preprocessing**: 
+  - `sklearn.preprocessing`
+    - Key module: `StandardScaler`
+- **Machine Learning Algorithms**: 
+  - `sklearn.ensemble`
+    - Key algorithm: `RandomForestRegressor`
+  - `sklearn.linear_model`
+    - Key algorithms: `Lasso`, `SGDRegressor`
+  - `sklearn.neural_network`
+    - Key algorithm: `MLPRegressor`
+- **Deep Learning (using PyTorch)**:
+  - `torch`
+  - `torch.nn`
+  - `torch.utils.data`
+- **Custom Modules and Utilities**: 
+  - `nnpredmine` (a custom module)
+    - Key functions: `nn_train`, `nn_pred`, `nn_finetune`
+  - `utils`
+    - Key functions: `MAPE`, `SMAPE`, `RMSE`, `MAE`
+You can install most of these libraries using `pip`:
+```
+pip install pandas numpy scikit-learn torch
+```
+**Note:** The `nnpredmine`(https://github.com/WangSY618/Transfer-learning/blob/main/nnpred.py) and `utils` modules (https://github.com/WangSY618/Transfer-learning/blob/main/utils.py) seem to be custom modules, and users would need access to these files to run the code successfully.
 
 ## Visualization of Model Results
 ### Figures Overview:
-
 - **Fig. 1**: Represents the geographical locations and charging statistics for the 12 study areas.
   - [View Notebook: Figure 1](https://github.com/WangSY618/Transfer-learning/blob/main/Figure/Figure%201.ipynb)
 - **Fig. 2**: Illustrates the performance of various models.
