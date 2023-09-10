@@ -35,20 +35,22 @@ To successfully run the provided code, ensure you have the following Python libr
 - **Data Handling and Operations**: 
   - `pandas`
   - `numpy`
-- **Data Preprocessing**: 
-  - `sklearn.preprocessing`
-    - Key module: `StandardScaler`
-- **Machine Learning Algorithms**: 
-  - `sklearn.ensemble`
-    - Key algorithm: `RandomForestRegressor`
-  - `sklearn.linear_model`
-    - Key algorithms: `Lasso`, `SGDRegressor`
-  - `sklearn.neural_network`
-    - Key algorithm: `MLPRegressor`
-- **Deep Learning (using PyTorch)**:
-  - `torch`
-  - `torch.nn`
-  - `torch.utils.data`
+- **Data Preprocessing**:
+  - **Library**: `sklearn.preprocessing`
+    - **Key Function/Class**: `StandardScaler`
+- **Machine Learning/Deep Learning Algorithms**:
+  - **Algorithms**:
+    - `RandomForestRegressor`
+    - `Lasso`
+    - `SGDRegressor`
+    - `MLPRegressor`
+    - `LSTM`
+    - `GRU`
+  - **Deep Learning Library**:
+    - `torch`
+    - **Modules**:
+      - `torch.nn`
+      - `torch.utils.data`
 - **Custom Modules and Utilities**: 
   - `nnpredmine` (a custom module)
     - Key functions: `nn_train`, `nn_pred`, `nn_finetune`
@@ -61,7 +63,6 @@ pip install pandas numpy scikit-learn torch
 **Note:** Both `nnpredmine` and `utils` are custom modules essential for the successful execution of the code. You can access and download them directly from the provided GitHub links:
 - [`nnpredmine` module](https://github.com/WangSY618/Transfer-learning/blob/main/nnpred.py)
 - [`utils` module](https://github.com/WangSY618/Transfer-learning/blob/main/utils.py)
-Ensure you have these files in the appropriate directory or adjust your import statements accordingly.
 
 ## Visualization of Model Results
 ### Figures Overview:
