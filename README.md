@@ -1,8 +1,16 @@
 
 
-# transfer learning for EV charging demand prediction
+# Machine Learning Approaches to Short-Term Electric Vehicle Charging Demand Prediction: Applicability and Transferability
 
 This is the repo of transfer learning for electric vehicles charging demand prediction, which collects charging demand of charging stations in 12 different cities and tests different prediction models.
+
+## Charging session data
+We used public real-world EV charging session datasets collected from 12 cities: one in China (i.e., Hong Kong), nine in the EU (i.e., Perth, Dundee, Crieff, Aberfeldy, Pitlochry, Kinross, Auchterarder, Blairgowrie, Dunkeld) and two in the USA (i.e., Palo Alto, and Boulder).
+The charging session data of Hong Kong were obtained from https://sc.hkelectric.com/TuniS/www.hkelectric.com/zh/smart-power-services/ev-charging-solution/location-map. 
+The charging session datasets in Kinross, Dunkeld, Aberfeldy, Perth, Blairgowrie, Pitlochry, Auchterarder, and Crieff were available at https://data.pkc.gov.uk/dataset/ev-charging-data. 
+The dataset for Dundee can be found at https://data.dundeecity.gov.uk/dataset/ev-charging-data. 
+The dataset for PALO can be obtained from https://data.cityofpaloalto.org/dataviews/257812/electric-vehicle-charging-station-usage-july-2011-dec-2020/. 
+The dataset for Boulder can be found at https://open-data.bouldercolorado.gov/datasets/39288b03f8d54b39848a2df9f1c5fca2_0/explore. 
 
 
 ### Requirements
