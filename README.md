@@ -41,18 +41,22 @@ The script `nnpred.py` is utilized for model construction.
 - **Fig. 3**: Showcases the transferability of different models.
   - [View Notebook: Figure 3](https://github.com/WangSY618/Transfer-learning/blob/main/Figure/Figure%203.ipynb)
 ## Requirements:
+To successfully run the provided code, ensure you have the following Python libraries installed:
+- **Data Handling and Operations**: 
+  - `pandas`
+  - `numpy`
+- **Data Visualization**: 
+  - `matplotlib`
+  - `seaborn`
+- **Machine Learning and Data Processing**: 
+  - `sklearn`
+    - Key modules: `KMeans`, `StandardScaler`, `make_blobs`, `metrics`
+You can install these libraries using `pip`:
+```
+pip install pandas numpy matplotlib seaborn scikit-learn mpl_toolkits
+```
 
-(You can list down the requirements here, if any.)
 
----
-
-这样的格式应该使内容更加清晰并易于理解。如果有其他需要添加或修改的内容，请告诉我。
-
-##模型结果可视化
-###图1，for Fig.1 | 12 Study Areas: Geographical Locations and Charging Statistics. "Figure/Figure1.ipynb"(https://github.com/WangSY618/Transfer-learning/blob/main/Figure/Figure%201.ipynb)
-###图2，for Fig.2 | Model Performance."Figure/Figure2.ipynb"(https://github.com/WangSY618/Transfer-learning/blob/main/Figure/Figure%202.ipynb)
-###图3，for Fig.3 | Model Transferability "Figure/Figure3.ipynb"(https://github.com/WangSY618/Transfer-learning/blob/main/Figure/Figure%203.ipynb)
-## Requirements
 
 ```
 torch
