@@ -18,7 +18,6 @@ I have sourced and downloaded real-world EV charging session datasets from 12 ci
   - Source: [Boulder EV Charging Data](https://open-data.bouldercolorado.gov/datasets/39288b03f8d54b39848a2df9f1c5fca2_0/explore) reserved on Sep 9-10, 2023.
 
 ## Model Training and Testing
-
 For details on model training and testing, please refer to the notebook [`Transfer.ipynb`](https://github.com/WangSY618/Transfer-learning/blob/main/Transfer.ipynb) 
 After executing the training and testing process, results will be saved in the `./res` directory. 
 The script `nnpred.py` is utilized for model construction.
@@ -32,6 +31,27 @@ The script `nnpred.py` is utilized for model construction.
 - **LSTM (Long Short-Term Memory)**: A type of recurrent neural network capable of remembering past information and is particularly well-suited for sequence prediction problems.
 - **GRU (Gated Recurrent Unit)**: Another type of recurrent neural network similar to LSTMs but with a different gating mechanism.
 
+## Visualization of Model Results
+### Figures Overview:
+
+- **Fig. 1**: Represents the geographical locations and charging statistics for the 12 study areas.
+  - [View Notebook: Figure 1](https://github.com/WangSY618/Transfer-learning/blob/main/Figure/Figure%201.ipynb)
+- **Fig. 2**: Illustrates the performance of various models.
+  - [View Notebook: Figure 2](https://github.com/WangSY618/Transfer-learning/blob/main/Figure/Figure%202.ipynb)
+- **Fig. 3**: Showcases the transferability of different models.
+  - [View Notebook: Figure 3](https://github.com/WangSY618/Transfer-learning/blob/main/Figure/Figure%203.ipynb)
+## Requirements:
+
+(You can list down the requirements here, if any.)
+
+---
+
+这样的格式应该使内容更加清晰并易于理解。如果有其他需要添加或修改的内容，请告诉我。
+
+##模型结果可视化
+###图1，for Fig.1 | 12 Study Areas: Geographical Locations and Charging Statistics. "Figure/Figure1.ipynb"(https://github.com/WangSY618/Transfer-learning/blob/main/Figure/Figure%201.ipynb)
+###图2，for Fig.2 | Model Performance."Figure/Figure2.ipynb"(https://github.com/WangSY618/Transfer-learning/blob/main/Figure/Figure%202.ipynb)
+###图3，for Fig.3 | Model Transferability "Figure/Figure3.ipynb"(https://github.com/WangSY618/Transfer-learning/blob/main/Figure/Figure%203.ipynb)
 ## Requirements
 
 ```
