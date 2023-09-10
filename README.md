@@ -12,6 +12,28 @@ The dataset for Dundee can be found at https://data.dundeecity.gov.uk/dataset/ev
 The dataset for PALO can be obtained from https://data.cityofpaloalto.org/dataviews/257812/electric-vehicle-charging-station-usage-july-2011-dec-2020/. <br />
 The dataset for Boulder can be found at https://open-data.bouldercolorado.gov/datasets/39288b03f8d54b39848a2df9f1c5fca2_0/explore. <br />
 
+## Charging session data
+
+We sourced public, real-world EV charging session datasets from 12 cities spanning three different continents:
+
+### China:
+- **Hong Kong:** 
+  - [Hong Kong Electric EV Charging Data](https://sc.hkelectric.com/TuniS/www.hkelectric.com/zh/smart-power-services/ev-charging-solution/location-map)
+
+### EU:
+- **Scotland:**
+  - **Perth, Dundee, Crieff, Aberfeldy, Pitlochry, Kinross, Auchterarder, Blairgowrie, Dunkeld:** 
+    - [Perth & Kinross EV Charging Data](https://data.pkc.gov.uk/dataset/ev-charging-data)
+    - [Dundee EV Charging Data](https://data.dundeecity.gov.uk/dataset/ev-charging-data)
+
+### USA:
+- **Palo Alto, California:**
+  - [Palo Alto EV Charging Station Usage (July 2011-Dec 2020)](https://data.cityofpaloalto.org/dataviews/257812/electric-vehicle-charging-station-usage-july-2011-dec-2020/)
+  
+- **Boulder, Colorado:**
+  - [Boulder EV Charging Data](https://open-data.bouldercolorado.gov/datasets/39288b03f8d54b39848a2df9f1c5fca2_0/explore)
+
+
 
 ### Requirements
 
