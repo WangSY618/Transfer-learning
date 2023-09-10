@@ -65,12 +65,12 @@ Ensure you have these files in the appropriate directory or adjust your import s
 
 ## Visualization of Model Results
 ### Figures Overview:
-- **Fig. 1**: Represents the geographical locations and charging statistics for the 12 study areas.
-  - [View Notebook: Figure 1](https://github.com/WangSY618/Transfer-learning/blob/main/Figure/Figure%201.ipynb)
+- **Fig. 1**: Represents the charging statistics for the 12 study areas.
+  - [View Notebook: Figure 1](https://github.com/WangSY618/Transfer-learning/blob/main/Figure/Figure%201/Figure%201.ipynb)
 - **Fig. 2**: Illustrates the performance of various models.
-  - [View Notebook: Figure 2](https://github.com/WangSY618/Transfer-learning/blob/main/Figure/Figure%202.ipynb)
+  - [View Notebook: Figure 2](https://github.com/WangSY618/Transfer-learning/blob/main/Figure/Figure%202/Figure%202.ipynb)
 - **Fig. 3**: Showcases the transferability of different models.
-  - [View Notebook: Figure 3](https://github.com/WangSY618/Transfer-learning/blob/main/Figure/Figure%203.ipynb)
+  - [View Notebook: Figure 3](https://github.com/WangSY618/Transfer-learning/blob/main/Figure/Figure%203/Figure%203.ipynb)
 ## Requirements:
 To successfully run the provided code, ensure you have the following Python libraries installed:
 - **Data Handling and Operations**: 
