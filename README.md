@@ -6,16 +6,16 @@ This is the repo of transfer learning for electric vehicles charging demand pred
 I have sourced and downloaded real-world EV charging session datasets from 12 cities across three continents. All sourced datasets have been stored in the `Data/ORIGINAL_PUBLIC_DATA` folder of this repository. The datasets above were processed to station-level charging demand time series data and further used for model development in this study. All the processed datasets used to reproduce the experiments of this paper have been stored in the `Data/PORCESSED_STATION` folder of this repository.
 ### China:
 - **Hong Kong:** 
-  - Source: [Hong Kong Electric EV Charging Data](https://sc.hkelectric.com/TuniS/www.hkelectric.com/zh/smart-power-services/ev-charging-solution/location-map) reserved on Sep 9-10, 2023.
+  - Source: [Hong Kong Electric EV Charging Data](https://sc.hkelectric.com/TuniS/www.hkelectric.com/zh/smart-power-services/ev-charging-solution/location-map) reserved on September 10, 2023.
 ### EU:
 - **Perth, Dundee, Crieff, Aberfeldy, Pitlochry, Kinross, Auchterarder, Blairgowrie, Dunkeld:** 
-  - Source: [Perth & Kinross EV Charging Data](https://data.pkc.gov.uk/dataset/ev-charging-data) reserved on Sep 9-10, 2023.
-  - Source: [Dundee EV Charging Data](https://data.dundeecity.gov.uk/dataset/ev-charging-data) reserved on Sep 9-10, 2023.
+  - Source: [Perth & Kinross EV Charging Data](https://data.pkc.gov.uk/dataset/ev-charging-data) reserved on September 10, 2023.
+  - Source: [Dundee EV Charging Data](https://data.dundeecity.gov.uk/dataset/ev-charging-data) reserved on September 10, 2023.
 ### USA:
 - **Palo Alto:**
-  - Source: [Palo Alto EV Charging Station Usage (July 2011-Dec 2020)](https://data.cityofpaloalto.org/dataviews/257812/electric-vehicle-charging-station-usage-july-2011-dec-2020/) reserved on Sep 9-10, 2023.
+  - Source: [Palo Alto EV Charging Station Usage (July 2011-Dec 2020)](https://data.cityofpaloalto.org/dataviews/257812/electric-vehicle-charging-station-usage-july-2011-dec-2020/) reserved on September 10, 2023.
 - **Boulder:**
-  - Source: [Boulder EV Charging Data](https://open-data.bouldercolorado.gov/datasets/39288b03f8d54b39848a2df9f1c5fca2_0/explore) reserved on Sep 9-10, 2023.
+  - Source: [Boulder EV Charging Data](https://open-data.bouldercolorado.gov/datasets/95992b3938be4622b07f0b05eba95d4c_0/explore) reserved on September 10, 2023.
 
 ## Model Training and Testing
 For details on model training and testing, please refer to the notebook [`Transfer.ipynb`](https://github.com/WangSY618/Transfer-learning/blob/main/Transfer.ipynb) 
@@ -86,51 +86,3 @@ You can install these libraries using `pip`:
 ```
 pip install pandas numpy matplotlib seaborn scikit-learn mpl_toolkits
 ```
-
-
-### File structure
-
-```
-|-- Data    # original data
-|   `-- STATION
-|       |-- A1-PERTH.csv
-|       |-- A10-Aberfeldy.csv
-|       |-- A11-Dunkeld.csv
-|       |-- A12-Blairgowrie.csv
-|       |-- A2-XIANGGANG.csv
-|       |-- A3-PALO.csv
-|       |-- A4-DUNDEE.csv
-|       |-- A5-BOULDER.csv
-|       |-- A6-Auchterarder.csv
-|       |-- A7-Kinross.csv
-|       |-- A8-Pitlochry.csv
-|       `-- A9-Crieff.csv
-|-- Figure    # model results visualization
-|   `-- Figure 1.ipynb   
-|   `-- Figure 2.ipynb
-|   `-- Figure 3.ipynb
-|-- res    # save result
-|   `-- station
-|       |-- {method}_pred_{pred_len}_{metric}.csv
-|       |-- ...
-|       `-- ...
-|-- station_transfer.ipynb  # main notebook
-|-- nnpred.py               # training and testing for neural network models
-`-- utils.py                # evaluation utils
-```
-
-
-### Training and testing
-
-Implemented machine learning models:
-+ `RF`: Random forest
-+ `LASSO`: Lasso regression 
-+ `SGD`: SGD regression
-
-Implemented deep learning models:
-+ `MLP`: Multilayer perceptron
-+ `LSTM`: Long short-term memory
-+ `GRU`: Gate recurrent unit
-
-Please refer to `Transfer.ipynb` for training and testing details.
-
