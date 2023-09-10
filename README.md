@@ -58,7 +58,15 @@ You can install most of these libraries using `pip`:
 ```
 pip install pandas numpy scikit-learn torch
 ```
-**Note:** The `nnpredmine`(https://github.com/WangSY618/Transfer-learning/blob/main/nnpred.py) and `utils` modules (https://github.com/WangSY618/Transfer-learning/blob/main/utils.py) seem to be custom modules, and users would need access to these files to run the code successfully.
+**Note:** Both `nnpredmine` and `utils` are custom modules essential for the successful execution of the code. You can access and download them directly from the provided GitHub links:
+- [`nnpredmine` module](https://github.com/WangSY618/Transfer-learning/blob/main/nnpred.py)
+- [`utils` module](https://github.com/WangSY618/Transfer-learning/blob/main/utils.py)
+
+Ensure you have these files in the appropriate directory or adjust your import statements accordingly.
+
+---
+
+You can copy and paste the revised note into your documentation.
 
 ## Visualization of Model Results
 ### Figures Overview:
