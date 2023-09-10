@@ -3,22 +3,21 @@
 # Machine Learning Approaches to Short-Term Electric Vehicle Charging Demand Prediction: Applicability and Transferability
 This is the repo of transfer learning for electric vehicles charging demand prediction, which collects charging demand of charging stations in 12 different cities and tests different prediction models.
 ## Charging session data
-I have sourced and downloaded public, real-world EV charging session datasets from 12 cities spanning three different continents. All datasets have been stored in the `Data/original` folder of this repository. 
+I have sourced and downloaded real-world EV charging session datasets from 12 cities across three continents. All sourced datasets have been stored in the `Data/ORIGINAL_PUBLIC_DATA` folder of this repository. The datasets above were processed to station-level charging demand time series data and further used for model development in this study. All the processed datasets used to reproduce the experiments of this paper have been stored in the `Data/PORCESSED_STATION` folder of this repository.
 ### China:
 - **Hong Kong:** 
-  - Source: [Hong Kong Electric EV Charging Data](https://sc.hkelectric.com/TuniS/www.hkelectric.com/zh/smart-power-services/ev-charging-solution/location-map)
+  - Source: [Hong Kong Electric EV Charging Data](https://sc.hkelectric.com/TuniS/www.hkelectric.com/zh/smart-power-services/ev-charging-solution/location-map) reserved on Sep 9-10, 2023.
 ### EU:
 - **Perth, Dundee, Crieff, Aberfeldy, Pitlochry, Kinross, Auchterarder, Blairgowrie, Dunkeld:** 
-  - Source: [Perth & Kinross EV Charging Data](https://data.pkc.gov.uk/dataset/ev-charging-data)
-  - Source: [Dundee EV Charging Data](https://data.dundeecity.gov.uk/dataset/ev-charging-data)
+  - Source: [Perth & Kinross EV Charging Data](https://data.pkc.gov.uk/dataset/ev-charging-data) reserved on Sep 9-10, 2023.
+  - Source: [Dundee EV Charging Data](https://data.dundeecity.gov.uk/dataset/ev-charging-data) reserved on Sep 9-10, 2023.
 ### USA:
 - **Palo Alto:**
-  - Source: [Palo Alto EV Charging Station Usage (July 2011-Dec 2020)](https://data.cityofpaloalto.org/dataviews/257812/electric-vehicle-charging-station-usage-july-2011-dec-2020/)
+  - Source: [Palo Alto EV Charging Station Usage (July 2011-Dec 2020)](https://data.cityofpaloalto.org/dataviews/257812/electric-vehicle-charging-station-usage-july-2011-dec-2020/) reserved on Sep 9-10, 2023.
 - **Boulder:**
-  - Source: [Boulder EV Charging Data](https://open-data.bouldercolorado.gov/datasets/39288b03f8d54b39848a2df9f1c5fca2_0/explore)
-The datasets above were processed to station-level charging demand time series data and further used for model development in this study. All the processed datasets used to reproduce the experiments of this paper have been stored in the `Data/original` folder of this repository.
+  - Source: [Boulder EV Charging Data](https://open-data.bouldercolorado.gov/datasets/39288b03f8d54b39848a2df9f1c5fca2_0/explore) reserved on Sep 9-10, 2023.
 
-### Requirements
+## Requirements
 
 ```
 torch
