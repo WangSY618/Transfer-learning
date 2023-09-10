@@ -20,7 +20,7 @@ I have sourced and downloaded real-world EV charging session datasets from 12 ci
 ## Model Training and Testing
 For details on model training and testing, please refer to the notebook [`Transfer.ipynb`](https://github.com/WangSY618/Transfer-learning/blob/main/Transfer.ipynb) 
 After executing the training and testing process, results will be saved in the `./res` directory. 
-The script `nnpred.py` is utilized for model construction.
+The script `nnpred.py` is utilized for model construction. The results will be save in `res`folder.
 
 ### Implemented Machine Learning Models:
 - **RF (Random Forest)**: An ensemble learning method that combines multiple decision trees to produce a more accurate prediction.
@@ -52,7 +52,7 @@ To successfully run the provided code, ensure you have the following Python libr
 - **Custom Modules and Utilities**: 
   - `nnpredmine` (a custom module)
     - Key functions: `nn_train`, `nn_pred`, `nn_finetune`
-  - `utils`
+  - `utils`(a custom module)
     - Key functions: `MAPE`, `SMAPE`, `RMSE`, `MAE`
 You can install most of these libraries using `pip`:
 ```
@@ -61,12 +61,7 @@ pip install pandas numpy scikit-learn torch
 **Note:** Both `nnpredmine` and `utils` are custom modules essential for the successful execution of the code. You can access and download them directly from the provided GitHub links:
 - [`nnpredmine` module](https://github.com/WangSY618/Transfer-learning/blob/main/nnpred.py)
 - [`utils` module](https://github.com/WangSY618/Transfer-learning/blob/main/utils.py)
-
 Ensure you have these files in the appropriate directory or adjust your import statements accordingly.
-
----
-
-You can copy and paste the revised note into your documentation.
 
 ## Visualization of Model Results
 ### Figures Overview:
@@ -92,14 +87,6 @@ You can install these libraries using `pip`:
 pip install pandas numpy matplotlib seaborn scikit-learn mpl_toolkits
 ```
 
-
-
-```
-torch
-sklearn
-numpy 
-pandas
-```
 
 ### File structure
 
@@ -146,4 +133,4 @@ Implemented deep learning models:
 + `GRU`: Gate recurrent unit
 
 Please refer to `Transfer.ipynb` for training and testing details.
-The results will be save in `.\res`.
+
