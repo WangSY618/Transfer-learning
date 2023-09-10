@@ -31,7 +31,7 @@ The script `nnpred.py` is utilized for model construction. The results will be s
 - **LSTM (Long Short-Term Memory)**: A type of recurrent neural network capable of remembering past information and is particularly well-suited for sequence prediction problems.
 - **GRU (Gated Recurrent Unit)**: Another type of recurrent neural network similar to LSTMs but with a different gating mechanism.
 ### Requirements:
-To successfully run the provided code, ensure you have the following Python libraries installed:
+To successfully run the provided code, ensure the following Python libraries are installed:
 - **Data Handling and Operations**: 
   - `pandas`
   - `numpy`
@@ -56,7 +56,7 @@ To successfully run the provided code, ensure you have the following Python libr
     - Key functions: `nn_train`, `nn_pred`, `nn_finetune`
   - `utils`(a custom module)
     - Key functions: `MAPE`, `SMAPE`, `RMSE`, `MAE`
-You can install most of these libraries using `pip`:
+Most of these libraries can be installed using `pip`:"
 ```
 pip install pandas numpy scikit-learn torch
 ```
@@ -73,7 +73,7 @@ pip install pandas numpy scikit-learn torch
 - **Fig. 3**: Showcases the transferability of different models.
   - [View Notebook: Figure 3](https://github.com/WangSY618/Transfer-learning/blob/main/Figure/Figure%203/Figure%203.ipynb)
 ## Requirements:
-To successfully run the provided code, ensure you have the following Python libraries installed:
+To successfully run the provided code, ensure the following Python libraries are installed:
 - **Data Handling and Operations**: 
   - `pandas`
   - `numpy`
@@ -83,7 +83,7 @@ To successfully run the provided code, ensure you have the following Python libr
 - **Machine Learning and Data Processing**: 
   - `sklearn`
     - Key modules: `KMeans`, `StandardScaler`, `make_blobs`, `metrics`
-You can install these libraries using `pip`:
+Install these libraries using `pip`:
 ```
 pip install pandas numpy matplotlib seaborn scikit-learn mpl_toolkits
 ```
