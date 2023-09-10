@@ -1,0 +1,13 @@
+city,number of charging events per hour,std,number of charging events per station per hour,number of charging station
+Perth,7.35,2.42,1.225,6
+HK,11.5,3.64,1.15,10
+Dundee,28.71,3.13,1.063333333,27
+Palo,5.23,4.12,0.747142857,7
+Crieff,1.11,0.46,0.555,2
+Aberfeldy,1.1,0.31,0.55,2
+Pitlochry,1.35,0.61,0.45,3
+Kinross,2.81,2.24,0.35125,8
+Auchterarder,0.27,0.44,0.27,1
+Blairgowrie,0.27,0.44,0.27,1
+Dunkeld,0.24,0.43,0.24,1
+Boulder,4.32,2.85,0.227368421,19
