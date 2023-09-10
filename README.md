@@ -17,6 +17,21 @@ I have sourced and downloaded real-world EV charging session datasets from 12 ci
 - **Boulder:**
   - Source: [Boulder EV Charging Data](https://open-data.bouldercolorado.gov/datasets/39288b03f8d54b39848a2df9f1c5fca2_0/explore) reserved on Sep 9-10, 2023.
 
+## Model Training and Testing
+
+For details on model training and testing, please refer to the notebook [`Transfer.ipynb`](https://github.com/WangSY618/Transfer-learning/blob/main/Transfer.ipynb) 
+After executing the training and testing process, results will be saved in the `./res` directory. 
+The script `nnpred.py` is utilized for model construction.
+
+### Implemented Machine Learning Models:
+- **RF (Random Forest)**: An ensemble learning method that combines multiple decision trees to produce a more accurate prediction.
+- **LASSO (Lasso Regression)**: A regression analysis method that performs both variable selection and regularization in order to enhance the prediction accuracy and interpretability of the model.
+- **SGD (SGD Regression)**: Stochastic gradient descent regression, an iterative method for optimizing the objective functions commonly found in machine learning.
+### Implemented Deep Learning Models:
+- **MLP (Multilayer Perceptron)**: A class of feedforward artificial neural network.
+- **LSTM (Long Short-Term Memory)**: A type of recurrent neural network capable of remembering past information and is particularly well-suited for sequence prediction problems.
+- **GRU (Gated Recurrent Unit)**: Another type of recurrent neural network similar to LSTMs but with a different gating mechanism.
+
 ## Requirements
 
 ```
