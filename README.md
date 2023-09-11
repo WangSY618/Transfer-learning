@@ -6,16 +6,16 @@ This is the repo of transfer learning for electric vehicles charging demand pred
 I have sourced and downloaded real-world EV charging session datasets from 12 cities across three continents. All sourced datasets have been stored in the `Data/ORIGINAL_PUBLIC_DATA` folder of this repository. The datasets above were processed to station-level charging demand time series data and further used for model development in this study. All the processed datasets used to reproduce the experiments of this paper have been stored in the `Data/PORCESSED_STATION` folder of this repository.
 ### China:
 - **Hong Kong:** 
-  - Source: [Hong Kong Electric EV Charging Data](https://sc.hkelectric.com/TuniS/www.hkelectric.com/zh/smart-power-services/ev-charging-solution/location-map) reserved on September 10, 2023.
+  - Source: [Hong Kong Electric EV Charging Data](https://sc.hkelectric.com/TuniS/www.hkelectric.com/zh/smart-power-services/ev-charging-solution/location-map) Retrieved on September 10, 2023.
 ### EU:
 - **Perth, Dundee, Crieff, Aberfeldy, Pitlochry, Kinross, Auchterarder, Blairgowrie, Dunkeld:** 
-  - Source: [Perth & Kinross EV Charging Data](https://data.pkc.gov.uk/dataset/ev-charging-data) reserved on September 10, 2023.
-  - Source: [Dundee EV Charging Data](https://data.dundeecity.gov.uk/dataset/ev-charging-data) reserved on September 10, 2023.
+  - Source: [Perth & Kinross EV Charging Data](https://data.pkc.gov.uk/dataset/ev-charging-data) Retrieved on September 10, 2023.
+  - Source: [Dundee EV Charging Data](https://data.dundeecity.gov.uk/dataset/ev-charging-data) Retrieved on September 10, 2023.
 ### USA:
 - **Palo Alto:**
-  - Source: [Palo Alto EV Charging Station Usage (July 2011-Dec 2020)](https://data.cityofpaloalto.org/dataviews/257812/electric-vehicle-charging-station-usage-july-2011-dec-2020/) reserved on September 10, 2023.
+  - Source: [Palo Alto EV Charging Station Usage (July 2011-Dec 2020)](https://data.cityofpaloalto.org/dataviews/257812/electric-vehicle-charging-station-usage-july-2011-dec-2020/) Retrieved on September 10, 2023.
 - **Boulder:**
-  - Source: [Boulder EV Charging Data](https://open-data.bouldercolorado.gov/datasets/95992b3938be4622b07f0b05eba95d4c_0/explore) reserved on September 10, 2023.
+  - Source: [Boulder EV Charging Data](https://open-data.bouldercolorado.gov/datasets/95992b3938be4622b07f0b05eba95d4c_0/explore) Retrieved on September 10, 2023.
 
 ## Model Training and Testing
 For details on model training and testing, please refer to the notebook [`Transfer.ipynb`](https://github.com/WangSY618/Transfer-learning/blob/main/Transfer.ipynb) 
