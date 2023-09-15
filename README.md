@@ -19,7 +19,7 @@ I have sourced and downloaded real-world EV charging session datasets from 12 ci
 
 ## Model Training and Testing
 For details on model training and testing, please refer to the notebook [`models.ipynb`](https://github.com/WangSY618/Transfer-learning/blob/main/Transfer.ipynb) 
-The script `nnpred.py` is utilized for model construction. The results will be save in `res`folder.
+The script `nnpred.py` is utilized for model construction.The results of the model can be found [here](./Figure%202/model_results.csv).
 
 ### Implemented Machine Learning Models:
 - **RF (Random Forest)**: An ensemble learning method that combines multiple decision trees to produce a more accurate prediction.
