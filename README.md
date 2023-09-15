@@ -1,7 +1,7 @@
 
 
 # Machine Learning Approaches to Short-Term Electric Vehicle Charging Demand Prediction: Applicability and Transferability
-This is the repo of transfer learning for electric vehicles charging demand prediction, which collects charging demand of charging stations in 12 different cities and tests different prediction models.
+This is the repository of transfer learning for electric vehicles charging demand prediction, which collects charging demand of charging stations in 12 different cities and tests different prediction models.
 ## Charging session data
 I have sourced and downloaded real-world EV charging session datasets from 12 cities across three continents. All sourced datasets have been stored in the `Data/ORIGINAL_PUBLIC_DATA` folder of this repository. The datasets above were processed to station-level charging demand time series data and further used for model development in this study. All the processed datasets used to reproduce the experiments of this paper have been stored in the `Data/PORCESSED_STATION` folder of this repository.
 ### China:
