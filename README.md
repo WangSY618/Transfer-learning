@@ -18,8 +18,7 @@ I have sourced and downloaded real-world EV charging session datasets from 12 ci
   - Source: [Boulder EV Charging Data](https://open-data.bouldercolorado.gov/datasets/95992b3938be4622b07f0b05eba95d4c_0/explore) Retrieved on September 10, 2023.
 
 ## Model Training and Testing
-For details on model training and testing, please refer to the notebook [`Transfer.ipynb`](https://github.com/WangSY618/Transfer-learning/blob/main/Transfer.ipynb) 
-After executing the training and testing process, results will be saved in the `./res` directory. 
+For details on model training and testing, please refer to the notebook [`models.ipynb`](https://github.com/WangSY618/Transfer-learning/blob/main/Transfer.ipynb) 
 The script `nnpred.py` is utilized for model construction. The results will be save in `res`folder.
 
 ### Implemented Machine Learning Models:
